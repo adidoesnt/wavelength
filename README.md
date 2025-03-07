@@ -1,4 +1,4 @@
-# Wavelength
+![Wavelength Logo](./static/wavelength-logo.png)
 
 ## Overview
 
