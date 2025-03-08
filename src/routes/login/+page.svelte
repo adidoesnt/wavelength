@@ -45,7 +45,7 @@
 <div class="flex min-h-screen w-full flex-col items-center justify-center p-4">
 	<div class="w-full max-w-md space-y-8 rounded-2xl bg-white/10 p-8 shadow-xl backdrop-blur-lg">
 		<div class="text-center">
-			<h2 class="text-3xl font-bold text-white">{config.name}</h2>
+			<h2 class="text-3xl font-bold bg-clip-text text-white">{config.name}</h2>
 			<p class="mt-2 text-sm text-gray-300">{config.pages.login.description}</p>
 		</div>
 
@@ -105,7 +105,7 @@
 				</div>
 				<button
 					type="submit"
-					class="rounded-md bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-2 text-sm font-medium text-white hover:from-blue-600 hover:to-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
+					class="rounded-md bg-gradient-to-r from-blue-600 to-teal-600 px-4 py-2 text-sm font-medium text-white hover:opacity-80 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
 				>
 					{config.pages.login.form.submit.label}
 				</button>
